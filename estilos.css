@@ -1,0 +1,46 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background:url(sun-pattern.png); /* Nuestra textura */
+	background-repeat:repeat; /* Indicamos que la textura se repetira */
+	background-attachment: fixed; /* Establecemos una posicion fija para la textura */
+	/* Eliminamos la propiedad de background-size */
+}
+
+.contenedor {
+	width: 90%;
+	max-width:900px;
+	margin:auto;
+}
+
+article {
+	background:rgba(170, 106, 206, 0.9);
+	padding:20px;
+	margin:20px 0;
+	color:#fff;
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+article h2 {
+	color:#fff;
+}
+
+article hr {
+	background:rgb(246, 64, 240);
+	height:5px;
+	border:none;
+}
+
+article p {
+	line-height: 25px;
+}
+
+article h2, article p, article hr {
+	margin-bottom: 20px;
+}
